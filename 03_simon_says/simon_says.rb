@@ -28,4 +28,3 @@ def titleize(statement)
 	statement=statement.sub(splitfirst[0],splitfirst[0].capitalize)
 	return statement
 end
-puts titleize("war and peace")
